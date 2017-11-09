@@ -1,0 +1,30 @@
+.js-btn {
+	position: fixed;
+	left: calc(50% - 100px);
+	top: 10px;
+	background: whitesmoke;
+	color: #333;
+	width: 200px;
+	height: 36px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	border: solid 1px #333;
+	border-radius: 2px;
+}
+
+.grid-container {
+	position: relative;
+	top: 50px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:800px;
+	width:800px;
+	padding: 0;
+	border: none;
+}
+
+.grid {
+	outline:1px solid #777;
+	display:inline-block;
+}
