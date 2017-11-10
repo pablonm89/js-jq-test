@@ -8,8 +8,15 @@
 	height: 36px;
 	font-family: arial, sans-serif;
 	font-weight: bold;
+	font-size: 16px;
 	border: solid 1px #333;
 	border-radius: 2px;
+}
+
+.js-btn:hover {
+	background: #777;
+	color: whitesmoke;
+	border: solid 1px whitesmoke;
 }
 
 .grid-container {
@@ -27,4 +34,5 @@
 .grid {
 	outline:1px solid #777;
 	display:inline-block;
+	background: whitesmoke;
 }
