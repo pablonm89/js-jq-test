@@ -16,9 +16,9 @@ function deleteGrid() {
 }
 
 function promptGrid() {
-	var nn = prompt('Select a number from 1 to 64')
+	var nn = prompt('Select a number from 1 to 50')
 	deleteGrid()
-	if (nn <= 64 && nn != 0) {
+	if (nn <= 50 && nn != 0) {
 		createGrid(nn)
 	} else {
 		alert('Please select a valid number')
