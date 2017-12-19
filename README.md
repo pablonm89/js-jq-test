@@ -1,5 +1,3 @@
-Odin Project: Web Development 101
+Rock - Paper - Scissors
 
-PROJECT: JAVASCRIPT AND JQUERY
-
-https://pablonm89.github.io/js-jq-test/
+Etch-a-Sketch
