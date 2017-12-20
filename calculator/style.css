@@ -47,14 +47,24 @@ div.container button {
 	border: solid 1px #c0c0c0;
 }
 
-div.container button.clear {
-	width: 95%;
+div.container button.clear,
+div.container button.del {
+	width: 45%;
 	height: 50px;
-	margin-top: 15px;
+	margin: 15px 10px 0px 10px; 
 }
 
 div.container button.key {
 	width: 80px;
 	height: 70px;
 	margin: 0px 10px
+}
+
+div.container button.sum,
+div.container button.rest,
+div.container button.div,
+div.container button.mult,
+div.container button.equal {
+	background-color: tomato;
+	color: whitesmoke;
 }
