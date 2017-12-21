@@ -1,12 +1,27 @@
-const add = (a, b) => a + b
-const sub = (a, b) => a - b
-const mult = (a, b) => a * b
-const div = (a, b) => a / b
+let $display = $('.display')
+let tempDisplay = ''
 
-function operate(operator, a, b) {
-	if (operator == '+') return add(a, b)
-	if (operator == '-') return sub(a, b)
-	if (operator == '*') return mult(a, b)
-	if (operator == '/') return div(a, b)
-}
+$('.num').click(e => {
+	tempDisplay += $(e.target).html()
+	$display.html(tempDisplay)
+})
 
+$('.equal').click(_ => {
+	$display.html(eval(tempDisplay))
+})
+
+$('.clear').click(_ => {
+	$display.html('0')
+})
+
+
+//TO DO
+/*
+1- Fix clear button
+2- Fix back button
+3- don't use eval, it's cheating
+4- cap the decimals
+5- if you press = and then add more numbers, fix the display
+6- cap the numbers show in the screen or make them scroll outside display
+
+*/
