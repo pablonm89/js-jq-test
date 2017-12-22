@@ -49,7 +49,7 @@ div.container button {
 }
 
 div.container button.clear,
-div.container button.del {
+div.container button.back {
 	width: 45%;
 	height: 50px;
 	margin: 15px 10px 0px 10px; 
