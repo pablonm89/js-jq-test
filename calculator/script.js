@@ -40,11 +40,11 @@ function getInput(input) {
 			didOperate = false
 		} else {
 			b = tempDisplay.join('')
-				if (b) {
-					total = `${operate(operator, a, b)}`
+			if (b) {
+				total = `${operate(operator, a, b)}`
 	        		a = total
 	        		tempDisplay = []
-					}
+			}
 			$display.html(a)
 		}
 		operator = input
@@ -53,11 +53,11 @@ function getInput(input) {
 		b = tempDisplay.join('') || b
 		total = `${operate(operator, a, b)}`
 		if (total != "NaN" && total != "undefined") {
-     	a = total
-      	tempDisplay = []
-      	didOperate = true
-      	$display.html(a)
-    	}
+     			a = total
+      			tempDisplay = []
+      			didOperate = true
+      			$display.html(a)
+    		}
 	}
 }
 
