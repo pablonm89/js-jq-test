@@ -25,12 +25,12 @@ function playRound(computerSelection) {
 		return $('.counter').text('You: ' + userPoints + ' | Computer: ' + computerPoints + ' | ties: ' + ties)
 	}
 	
-	let rockPaper = (playerChoice == 'rock' && computerChoice == 'paper')
+	let rockScissors = (playerChoice == 'rock' && computerChoice == 'scissors')
 	let paperRock = (playerChoice == 'paper' && computerChoice == 'rock')
 	let scissorsPaper = (playerChoice == 'scissors' && computerChoice == 'paper')
 
 	// checks who wins each round
-	if (rockPaper || paperRock || scissorsPaper) {
+	if (rockScissors || paperRock || scissorsPaper) {
 		$('.para').text('You win! ' + playerChoice + ' ' + 'beats' + ' ' + computerChoice)
 		userPoints +=1
 		return $('.counter').text('You: ' + userPoints + ' | Computer: ' + computerPoints + ' | ties: ' + ties)
